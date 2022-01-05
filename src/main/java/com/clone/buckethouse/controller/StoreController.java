@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -98,6 +97,7 @@ public class StoreController {
     public ResponseEntity<?> deleteStoreContent(@RequestBody StoreContentDTO dto){
         try{
             String temporaryUserId = "temporary-user"; // temporary user id.
+            // Test
 
             // (1) ProductEntity로 변환한다.
             ProductEntity entity = StoreContentDTO.toEntity(dto);
