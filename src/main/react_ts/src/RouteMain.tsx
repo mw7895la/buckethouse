@@ -1,11 +1,11 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom'
-import IntroductionMainComponent from "./introduction/components/IntroductionMainComponent";
+import StoreContentMainComponent from "./introduction/components/StoreContentMainComponent";
 
 const RouteMain = () => {
     return (
         <Routes>
-            <Route path="/*" element={<IntroductionMainComponent/>}/>
+            <Route path="/*" element={<StoreContentMainComponent/>}/>
         </Routes>
     );
 }
