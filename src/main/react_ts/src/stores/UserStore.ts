@@ -1,5 +1,5 @@
 import {action, computed, makeObservable, observable} from "mobx";
-import User from "../model/User";
+import User from "../models/User";
 import AppStore from "./AppStore";
 import IUser from "../types/User";
 

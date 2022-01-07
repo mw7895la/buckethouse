@@ -1,4 +1,4 @@
-export default interface IStoreContent {
+export default interface IProduct {
     id: string;
     vendorId: string;
     title: string;

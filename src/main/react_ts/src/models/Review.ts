@@ -1,5 +1,5 @@
 import IReview from "../types/Review";
-import AppStore from "../store/AppStore";
+import AppStore from "../stores/AppStore";
 import {computed, makeObservable} from "mobx";
 
 export default class Review implements IReview{

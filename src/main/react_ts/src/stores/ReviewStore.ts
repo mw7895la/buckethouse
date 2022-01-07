@@ -1,5 +1,5 @@
 import {action, computed, makeObservable, observable} from "mobx";
-import Review from "../model/Review";
+import Review from "../models/Review";
 import AppStore from "./AppStore";
 import IReview from "../types/Review";
 

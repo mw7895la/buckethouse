@@ -1,11 +1,11 @@
 import React from 'react';
 import {Route, Routes} from 'react-router-dom'
-import StoreContentMainComponent from "./introduction/components/StoreContentMainComponent";
+import Product from "../pages/Product";
 
 const RouteMain = () => {
     return (
         <Routes>
-            <Route path="/*" element={<StoreContentMainComponent/>}/>
+            <Route path="/*" element={<Product/>}/>
         </Routes>
     );
 }

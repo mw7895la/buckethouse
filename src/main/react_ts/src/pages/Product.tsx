@@ -4,7 +4,7 @@ import {observer} from "mobx-react-lite";
 export interface IStoreContentProps {
 }
 
-const StoreContentMainComponent = observer((props: IStoreContentProps) => {
+const Product = observer((props: IStoreContentProps) => {
         return (
             <>
                 HELLO, React with Mobx!
@@ -15,4 +15,4 @@ const StoreContentMainComponent = observer((props: IStoreContentProps) => {
 
 ;
 
-export default StoreContentMainComponent;
+export default Product;

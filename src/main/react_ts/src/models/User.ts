@@ -1,4 +1,4 @@
-import AppStore from "../store/AppStore";
+import AppStore from "../stores/AppStore";
 import IUser from "../types/User";
 import {computed, makeObservable} from "mobx";
 
